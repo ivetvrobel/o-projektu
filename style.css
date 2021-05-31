@@ -24,3 +24,58 @@ a:hover {
     border-right: none;
     border-radius: 0;
 }
+
+/* Styl pro link Iveta */
+
+.iveta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.iveta-foto {
+    margin: 0 auto;
+    height: 120%;
+    width: auto;
+}
+
+.iveta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iveta-titlebox {
+    text-align: center;
+    background-color: rgb(241, 224, 202);
+    margin: 20px 0;
+    width: 300px;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iveta-github {
+    width: auto;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+}
+
+.iveta-info {
+    margin-top: 20px;
+    padding: 30px 20px;
+    width: 500px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(247, 240, 231);
+    border-bottom: 1px solid black;
+}
