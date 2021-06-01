@@ -1,0 +1,229 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  display: inline-block;
+  width: 15%;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+/* Styl pro link Iveta */
+
+.iveta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.iveta-foto {
+  margin: 0 auto;
+  height: 120%;
+  width: auto;
+}
+
+.iveta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iveta-titlebox {
+  text-align: center;
+  background-color: rgb(241, 224, 202);
+  margin: 20px 0;
+  width: 300px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iveta-github {
+  width: auto;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+}
+
+.iveta-info {
+  margin-top: 20px;
+  padding: 30px 20px;
+  width: 500px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: rgb(247, 240, 231);
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+a {
+  display: inline-block;
+  width: 15%;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+a:hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.uvodniFoto {
+  max-width: 50%;
+  max-height: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 20px;
+}
+
+/* Andrea */
+
+.firstContainer {
+  display: flex;
+  padding: 100px;
+  margin: auto;
+  max-width: 800px;
+  background-color: rgb(217, 245, 245);
+  height: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+.foto {
+  height: 150px;
+  width: 150px;
+  border-radius: 9999px;
+}
+
+.secContainer {
+  display: flex;
+  padding: 100px;
+  margin: auto;
+  max-width: 800px;
+  background-color: rgb(15, 65, 65);
+  height: 150px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.bistro {
+  height: 150px;
+  width: 200px;
+  position: relative;
+  right: 50px;
+}
+.secContainer p {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thrdContainer {
+  display: flex;
+  padding: 100px;
+  margin: auto;
+  max-width: 800px;
+  background-color: rgb(74, 90, 90);
+  height: 150px;
+  color: rgb(241, 227, 209);
+  font-family: 'Roboto', sans-serif;
+}
+.estik {
+  height: 150px;
+  width: 250px;
+  position: relative;
+  left: 50px;
+}
+
+/*styl pro stranku Jitka*/
+.Ji {
+  background-color: #ccff99;
+  background-size: auto;
+  color: darkgreen;
+  display: flex;
+  width: 680px;
+  text-align: justify;
+  margin: auto;
+  padding: 50px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+}
+.Jita {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+  padding: 25px 25px;
+}
+
+.Sev {
+  font-size: 2.1rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.me {
+  padding: 25px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+/*k úvodní straně*/
+.finGra {
+  display: flex;
+  flex-direction: column;
+  background-color: ivory;
+  margin: auto;
+  width: 900px;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vysvetleni {
+  margin: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center;
+}
